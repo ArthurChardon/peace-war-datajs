@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "build-docs": "parcel build src/index.html --dist-dir docs"
   },
   "dependencies": {
     "@cubejs-client/core": "^0.31.0",
